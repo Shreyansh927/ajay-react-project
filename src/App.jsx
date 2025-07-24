@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-      <h1>ajay</h1>
+      <h1>ajay go</h1>
     </div>
   )
 }
