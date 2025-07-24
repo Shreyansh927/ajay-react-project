@@ -1,14 +1,13 @@
-import React from 'react'
-import Map from './Map'
-import CL from './currentLocation'  
+import React from "react";
+import Map from "./Map";
+import CL from "./currentLocation";
 import MapWithRoute from "./fromTo";
 
 const App = () => {
   return (
     <div>
-<<<<<<< HEAD
       <h1>ajay go</h1>
-=======
+
       <h1>ajay</h1>
       <Map />
       <CL />
@@ -22,9 +21,8 @@ const App = () => {
         Google Maps API key.
       </p>
       <p>Enjoy exploring the map!</p>
->>>>>>> 2505c53 (map added)
     </div>
   );
-}
+};
 
-export default App
+export default App;
