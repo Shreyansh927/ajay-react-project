@@ -2,13 +2,11 @@ import React from "react";
 import Map from "./Map";
 import CL from "./currentLocation";
 import MapWithRoute from "./fromTo";
-
+import Ai from "./groqAi";
 const App = () => {
   return (
     <div>
-      <h1>ajay go</h1>
-
-      <h1>ajay</h1>
+      <Ai />
       <Map />
       <CL />
       <MapWithRoute />
